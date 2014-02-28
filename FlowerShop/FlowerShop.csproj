@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5674AF43-048E-466C-B40F-331BD11DEBCD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlowerShop</RootNamespace>
+    <AssemblyName>FlowerShop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EditPW.aspx" />
+    <Content Include="fMainPage.aspx" />
+    <Content Include="ForgetPW.aspx" />
+    <Content Include="Image\1.gif" />
+    <Content Include="Image\1.jpg" />
+    <Content Include="Image\34.jpg" />
+    <Content Include="Image\5.png" />
+    <Content Include="Image\57e0403046323406ebc4afc8.jpg" />
+    <Content Include="Image\6.png" />
+    <Content Include="Image\71960_1560491_32.gif" />
+    <Content Include="Image\71960_1560491_9.gif" />
+    <Content Include="Image\ad_690_85.gif" />
+    <Content Include="Image\dl.gif" />
+    <Content Include="Image\gg09.jpg" />
+    <Content Include="Image\huiyuan\0.png" />
+    <Content Include="Image\huiyuan\01.png" />
+    <Content Include="Image\huiyuan\02.png" />
+    <Content Include="Image\huiyuan\1.png" />
+    <Content Include="Image\huiyuan\2.png" />
+    <Content Include="Image\huiyuan\3.png" />
+    <Content Include="Image\huiyuan\4.png" />
+    <Content Include="Image\huiyuan\5.png" />
+    <Content Include="Image\huiyuan\6.png" />
+    <Content Include="Image\huiyuan\7.png" />
+    <Content Include="Image\huiyuan\8.png" />
+    <Content Include="Image\huiyuan\9.png" />
+    <Content Include="Image\huiyuan\remaicp.jpg" />
+    <Content Include="Image\huiyuan\tuijian.jpg" />
+    <Content Include="Image\huiyuan\ty.png" />
+    <Content Include="Image\main_top.jpg" />
+    <Content Include="Image\modeviewbtn.gif" />
+    <Content Include="Image\muqing.jpg" />
+    <Content Include="Image\pic182385c1.jpg" />
+    <Content Include="Image\top_10.jpg" />
+    <Content Include="Image\top_11.jpg" />
+    <Content Include="Image\top_12.jpg" />
+    <Content Include="Image\top_13.jpg" />
+    <Content Include="Image\top_14.jpg" />
+    <Content Include="Image\top_15.jpg" />
+    <Content Include="Image\top_16.jpg" />
+    <Content Include="Image\top_17.jpg" />
+    <Content Include="Image\top_18.jpg" />
+    <Content Include="Image\top_19.jpg" />
+    <Content Include="Image\top_4.jpg" />
+    <Content Include="Image\top_5.jpg" />
+    <Content Include="Image\top_6.jpg" />
+    <Content Include="Image\top_7.jpg" />
+    <Content Include="Image\top_8.jpg" />
+    <Content Include="Image\top_9.jpg" />
+    <Content Include="Image\ttui.gif" />
+    <Content Include="Image\xianhua1.jpg" />
+    <Content Include="Image\zc.gif" />
+    <Content Include="Login.aspx" />
+    <Content Include="pic\1_s.jpg" />
+    <Content Include="pic\2_s.jpg" />
+    <Content Include="pic\3_s.jpg" />
+    <Content Include="pic\4_s.jpg" />
+    <Content Include="pic\5_s.jpg" />
+    <Content Include="pic\6_s.jpg" />
+    <Content Include="pic\7_s.jpg" />
+    <Content Include="pic\8_s.jpg" />
+    <Content Include="VIP.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EditPW.aspx.cs">
+      <DependentUpon>EditPW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPW.aspx.designer.cs">
+      <DependentUpon>EditPW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fMainPage.aspx.cs">
+      <DependentUpon>fMainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fMainPage.aspx.designer.cs">
+      <DependentUpon>fMainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPW.aspx.cs">
+      <DependentUpon>ForgetPW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPW.aspx.designer.cs">
+      <DependentUpon>ForgetPW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VIP.aspx.cs">
+      <DependentUpon>VIP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VIP.aspx.designer.cs">
+      <DependentUpon>VIP.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\huiyuan\Thumbs.db" />
+    <None Include="Image\Thumbs.db" />
+    <Content Include="MasterPage.Master" />
+    <None Include="pic\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fmarket\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10769</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
