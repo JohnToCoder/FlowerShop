@@ -30,11 +30,11 @@
                 &nbsp;
                 <div style="z-index: 101; left: 100px; width: 108px; position: absolute; top: 100px;
                     height: 93px">
-                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="Large" PostBackUrl="~/修改密码.aspx"
+                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="Large" PostBackUrl="~/EditPW.aspx"
                         Width="105px">修改密码</asp:LinkButton>
-                    <asp:LinkButton ID="LinkButton2" runat="server" Font-Size="Large" PostBackUrl="~/鲜花超市/热卖排行.aspx"
+                    <asp:LinkButton ID="LinkButton2" runat="server" Font-Size="Large" PostBackUrl="~/Fmarket/HotSale.aspx"
                         Width="104px">热卖排行</asp:LinkButton>
-                    <asp:LinkButton ID="LinkButton3" runat="server" Font-Size="Large" PostBackUrl="~/鲜花超市/我的购物车.aspx"
+                    <asp:LinkButton ID="LinkButton3" runat="server" Font-Size="Large" PostBackUrl="~/Fmarket/ShopBus.aspx"
                         Width="104px">我的购物车</asp:LinkButton></div>
             </div>
             <asp:Calendar ID="Calendar1" runat="server" BackColor="#FFFFCC" BorderColor="#FFCC66"
@@ -55,10 +55,10 @@
                 background-color: #66ffff; border-left-color: #ff0066; border-bottom-color: #ff0066; border-top-style: dashed; border-top-color: #ff0066; border-right-style: dashed; border-left-style: dashed; border-right-color: #ff0066; border-bottom-style: dashed;" Width="890px" BackColor="#FFC0C0" BorderColor="Lime">
                 <Items>
                     <asp:MenuItem Text="首页｜" Value="首页"></asp:MenuItem>
-                    <asp:MenuItem Text="鲜花超市｜" Value="鲜花超市" NavigateUrl="~/鲜花超市/数据.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="购物车｜" Value="购物车" NavigateUrl="~/鲜花超市/我的购物车.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="鲜花超市｜" Value="鲜花超市" NavigateUrl="~/Fmarket/DataS.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="购物车｜" Value="购物车" NavigateUrl="~/Fmarket/ShopBus.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="订单查询｜" Value="订单查询"></asp:MenuItem>
-                    <asp:MenuItem Text="热卖排行｜" Value="热卖排行" NavigateUrl="~/鲜花超市/热卖排行.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="热卖排行｜" Value="热卖排行" NavigateUrl="~/Fmarket/HotSale.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="后台管理｜" Value="后台管理"></asp:MenuItem>
                     <asp:MenuItem Text="退出系统" Value="退出系统"></asp:MenuItem>
                 </Items>
@@ -99,7 +99,7 @@ style="WIDTH: 101%; HEIGHT: 86px" cellSpacing=0 cellPadding=1
       target="_blank">鲜花：清风雅韵</A></TD></TR><TR><TD>·<A class="a04" 
       href="http://www.flowercn.com/showdetail.asp?product_code=9010733" 
       target="_blank">鲜花：爱的呼唤</A></TD></TR><TR><TD style="HEIGHT: 10px">·<A 
-      class="a04" href="/showdetail.asp?product_code=9010620" 
+      class="a04" href="" 
       target="_blank"><FONT color=#ff0000>鲜花：嫁给我吧</FONT><BR />送德芙心语巧克力</A> 
   </TD></TR></TBODY></TABLE></marquee>
             <br />
@@ -175,19 +175,19 @@ style="WIDTH: 101%; HEIGHT: 86px" cellSpacing=0 cellPadding=1
                     Width="212px">
                     <Items>
                         <asp:MenuItem Text="鲜花与生活" Value="鲜花与生活">
-                            <asp:MenuItem Text="女孩子喜欢别人送花吗？" Value="女孩子喜欢别人送花吗？" NavigateUrl="~/鲜花与生活/女孩子喜欢别人送花吗？.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花的摆设" Value="鲜花的摆设" NavigateUrl="~/鲜花与生活/鲜花摆设.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花情感" Value="鲜花情感" NavigateUrl="~/鲜花与生活/鲜花情感.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="女孩子喜欢别人送花吗？" Value="女孩子喜欢别人送花吗？" NavigateUrl="~/FlowerLive/Songhua.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花的摆设" Value="鲜花的摆设" NavigateUrl="~/FlowerLive/XianhuaBaifang.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花情感" Value="鲜花情感" NavigateUrl="~/FlowerLive/xianhuaqgan.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="鲜花与节日" Value="鲜花与节日">
-                            <asp:MenuItem Text="母亲节花语" Value="母亲节花语" NavigateUrl="~/鲜花与节日/母亲节花语.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花与节日" Value="鲜花与节日" NavigateUrl="~/鲜花与节日/鲜花与节日.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="中外节日" Value="中外节日" NavigateUrl="~/鲜花与节日/中外节日.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="母亲节花语" Value="母亲节花语" NavigateUrl="~/FlowerJieri/Muqj.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花与节日" Value="鲜花与节日" NavigateUrl="~/FlowerJieri/FlowerJieRi.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="中外节日" Value="中外节日" NavigateUrl="~/FlowerJieri/JieRi.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="鲜花与花语" Value="鲜花与花语">
-                            <asp:MenuItem Text="花语花意" Value="花语花意" NavigateUrl="~/鲜花与花语/花语花意 .aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="送花的常识与技巧" Value="送花的常识与技巧" NavigateUrl="~/鲜花与花语/送花的常识和技巧.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花支数寓意" Value="鲜花支数寓意" NavigateUrl="~/鲜花与花语/鲜花枝数寓意.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="花语花意" Value="花语花意" NavigateUrl="~/FlowerLanguage/FLmean.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="送花的常识与技巧" Value="送花的常识与技巧" NavigateUrl="~/FlowerLanguage/SendFlower.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花支数寓意" Value="鲜花支数寓意" NavigateUrl="~/FlowerLanguage/FNMean.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                     </Items>
                 </asp:Menu>

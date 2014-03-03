@@ -64,7 +64,7 @@
                                     <td align="right" colspan="2">
                                         <asp:Button ID="LoginButton" runat="server" BackColor="White" BorderColor="#507CD1"
                                             BorderStyle="Solid" BorderWidth="1px" CommandName="Login" Font-Names="Verdana"
-                                            Font-Size="Large" ForeColor="#284E98" PostBackUrl="../VIP.aspx" Text="登录" ValidationGroup="Login1" />
+                                            Font-Size="Large" ForeColor="#284E98" PostBackUrl="../fMainPage.aspx" Text="登录" ValidationGroup="Login1" />
                                     </td>
                                 </tr>
                             </table>

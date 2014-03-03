@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="JieRiMasterPage.Master.cs" Inherits="FlowerShop.FlowerJieri.JiaRiMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+</head>
+<body bgcolor="#00ffff">
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;
+        <div style="z-index: 101; left: 215px; width: 94px; position: absolute; top: 2px;
+            height: 18px">
+            <asp:Image ID="Image1" runat="server" Height="145px" ImageUrl="~/image/main_top.jpg"
+                Width="802px" />
+            <div style="z-index: 101; left: 0px; width: 803px; position: absolute; top: 149px;
+                height: 152px">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                版权所归：XXXX</div>
+        </div>
+        &nbsp;
+    </div>
+    </form>
+</body>
+</html>

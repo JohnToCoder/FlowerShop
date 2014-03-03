@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FLMasterPage.Master.cs" Inherits="FlowerShop.FlowerLanguage.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+</head>
+<body bgcolor="#33ffff">
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;
+        <div style="z-index: 101; left: 220px; width: 849px; position: absolute; top: 219px;
+            height: 100px">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+        </div>
+        &nbsp;
+        <div style="z-index: 102; left: 218px; width: 854px; position: absolute; top: 13px;
+            height: 100px">
+            <asp:Image ID="Image1" runat="server" Height="204px" ImageUrl="~/FlowerLanguage/image/fgd.bmp"
+                Width="853px" /></div>
+    </div>
+    </form>
+</body>
+</html>

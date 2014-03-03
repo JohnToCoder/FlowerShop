@@ -187,19 +187,19 @@ style="WIDTH: 101%; HEIGHT: 86px" cellSpacing=0 cellPadding=1
                     Width="110px">
                     <Items>
                         <asp:MenuItem Text="鲜花与生活" Value="鲜花与生活">
-                            <asp:MenuItem Text="女孩子喜欢别人送花吗？" Value="女孩子喜欢别人送花吗？" NavigateUrl="~/鲜花与生活/女孩子喜欢别人送花吗？.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花的摆设" Value="鲜花的摆设" NavigateUrl="~/鲜花与生活/鲜花摆设.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花情感" Value="鲜花情感" NavigateUrl="~/鲜花与生活/鲜花情感.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="女孩子喜欢别人送花吗？" Value="女孩子喜欢别人送花吗？" NavigateUrl="~/FlowerLive/Songhua.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花的摆设" Value="鲜花的摆设" NavigateUrl="~/FlowerLive/XianhuaBaifang.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花情感" Value="鲜花情感" NavigateUrl="~/FlowerLive/xianhuaqgan.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="鲜花与节日" Value="鲜花与节日">
-                            <asp:MenuItem Text="母亲节花语" Value="母亲节花语" NavigateUrl="~/鲜花与节日/母亲节花语.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花与节日" Value="鲜花与节日" NavigateUrl="~/鲜花与节日/鲜花与节日.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="中外节日" Value="中外节日" NavigateUrl="~/鲜花与节日/中外节日.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="母亲节花语" Value="母亲节花语" NavigateUrl="~/FlowerJieri/Muqj.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花与节日" Value="鲜花与节日" NavigateUrl="~/FlowerJieri/FlowerJieRi.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="中外节日" Value="中外节日" NavigateUrl="~/FlowerJieri/JieRi.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="鲜花与花语" Value="鲜花与花语">
-                            <asp:MenuItem Text="花语花意" Value="花语花意" NavigateUrl="~/鲜花与花语/花语花意 .aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="送花的常识与技巧" Value="送花的常识与技巧" NavigateUrl="~/鲜花与花语/送花的常识和技巧.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="鲜花支数寓意" Value="鲜花支数寓意" NavigateUrl="~/鲜花与花语/鲜花枝数寓意.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="花语花意" Value="花语花意" NavigateUrl="~/FlowerLanguage/FLmean.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="送花的常识与技巧" Value="送花的常识与技巧" NavigateUrl="~/FlowerLanguage/SendFlower.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="鲜花支数寓意" Value="鲜花支数寓意" NavigateUrl="~/FlowerLanguage/FNMean.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                     </Items>
                 </asp:Menu>
